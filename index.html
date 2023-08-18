@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator App</title>
+  </head>
+  <body>
+    <h1 id="title">SPLI <span><br>TTER</span></h1>
+<div class="main">
+    <div  class="sub-main">
+        <div class="bill">
+        <label for="bill" >Bill</label><br>
+        <p class="text-condition"></p>
+        <input type="number" placeholder="0" id="bill" min="0"><br>
+        </div>
+        <label for="tip">Select Tip %</label>
+        <ul class="percent">
+            <li><button class="btn" value="0.05">5%</button></li>
+            <li><button class="btn" value="0.10">10%</button></li>
+            <li><button class="btn" value="0.15">15%</button></li>
+            <li><button class="btn" value="0.25">25%</button></li>
+            <li><button class="btn" value="0.50">50%</button></li>
+            <li><input type="number" class="btn custom" placeholder="CUSTOM" min="0"></li>
+        </ul>
+        <div class="people">
+        <label for="people" id="labelPeople">Number of People</label><p class="text-condition"></p><br>
+        <input type="number" placeholder="0" id="people" min="1">
+        </div>
+    </div>
+    <div class="amount">
+        <div class="amount-2">
+        <div class="tip-amount">
+            <p>Tip Amount <br><span>/ person</span></p>
+            <h1 class="number-amount" >$0.00</h1>
+        </div>
+        <div class="total">
+            <p>Total <br><span>/ person</span></p>
+            <h1 class="number-amount">$0.00</h1>
+        </div>
+    </div>
+        <button type="reset" id="reset">RESET</button>
+    </div>
+</div>
+<script src="app.js"></script>
+  </body>
+</html>
