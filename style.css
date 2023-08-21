@@ -171,6 +171,7 @@ label{
     .main{
         flex-direction: column;
         padding: 1rem;
+        width: 35rem;
     }
     ul{
         grid-template-columns: auto auto;
@@ -180,5 +181,5 @@ label{
     }
     .people{
         margin-bottom: 1rem;
-    }
+    }   
 }
