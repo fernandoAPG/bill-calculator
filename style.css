@@ -171,7 +171,7 @@ label{
     .main{
         flex-direction: column;
         padding: 1rem;
-        width: 35rem;
+        width: 30rem;
     }
     ul{
         grid-template-columns: auto auto;
